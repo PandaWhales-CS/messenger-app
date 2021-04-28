@@ -1,3 +1,5 @@
+// expected result from GET /messages/${username} 
+
 const conversationMessage = [ 
   {
     senderId:"6084d06d159e890779753ea0",
@@ -6,10 +8,10 @@ const conversationMessage = [
     receiverUsername:"goku",
     receiverId:  "608622d8e574bf6e741ff32c",
     receiverLang: "es",
-    sentText:"Hello Friend",
-    transText:"Hola amigo",
+    messageSent:"Hello Friend",
+    translatedMessage:"Hola amigo",
     //https://stackoverflow.com/questions/36550263/how-create-a-date-field-with-default-value-as-the-current-timestamp-in-mongodb
-    timeSent: 1619566886, //unix timestamp ()
+    timeSent: 1619566886, //unix timestamp 
   },
   {
     senderId:"6084d06d159e890779753ea0",
@@ -18,10 +20,9 @@ const conversationMessage = [
     receiverUsername:"goku",
     receiverId:  "608622d8e574bf6e741ff32c",
     receiverLang: "es",
-    sentText:"Hello Enemy",
-    transText:"Hola enemiga",
-    //https://stackoverflow.com/questions/36550263/how-create-a-date-field-with-default-value-as-the-current-timestamp-in-mongodb
-    timeSent: 1619568952, //unix timestamp ()
+    messageSent:"Hello Enemy",
+    translatedMessage:"Hola enemiga",
+    timeSent: 1619568952, //unix timestamp 
   },
   {
     senderId:"608622d8e574bf6e741ff32c",
@@ -30,8 +31,8 @@ const conversationMessage = [
     receiverUsername:"pink",
     receiverId:  "6084d06d159e890779753ea0",
     receiverLang: "en",
-    sentText:"Tengo Hambre",
-    transText:"I'm hungry",
-    timeSent: 1619678952, //unix timestamp ()
+    messageSent:"Tengo hambre",
+    translatedMessage:"I'm hungry",
+    timeSent: 1619678952, //unix timestamp
   },
 ]
